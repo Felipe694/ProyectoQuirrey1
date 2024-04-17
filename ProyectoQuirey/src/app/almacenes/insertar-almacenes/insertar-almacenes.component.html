@@ -1,4 +1,4 @@
-<h1 mat-dialog-title>Nuevo Departamento</h1>
+<h1 mat-dialog-title class="titulo">Añadir Almacen</h1>
 <div mat-dialog-content class="mat-dialog-grid">
   <!-- Fila para el formulario -->
   <div class="mat-dialog-row">
@@ -6,35 +6,55 @@
     <div class="mat-dialog-cell">
       <mat-form-field>
         <mat-label>Nombre</mat-label>
-        <input matInput placeholder="Ingresa el nombre" [(ngModel)]="nombreDepartamento">
+        <input
+          matInput
+          placeholder="Ingresa el nombre"
+          [(ngModel)]="nombreDepartamento"
+          required
+          aria-required="true"
+        />
       </mat-form-field>
     </div>
   </div>
 
   <div class="mat-dialog-row">
-    <!-- Columna para el campo de nombre -->
+    <!-- Columna para el campo de dirección -->
     <div class="mat-dialog-cell">
       <mat-form-field>
-        <mat-label>Direccion</mat-label>
-        <input matInput placeholder="Ingresa la direccion" [(ngModel)]="direccionDepartamento">
+        <mat-label>Dirección</mat-label>
+        <input
+          matInput
+          placeholder="Ingresa la dirección"
+          [(ngModel)]="direccionDepartamento"
+          required
+          aria-required="true"
+        />
       </mat-form-field>
     </div>
   </div>
 
   <div class="mat-dialog-row">
-    <!-- Columna para el campo de nombre -->
+    <!-- Columna para el campo de usuario que actualiza -->
     <div class="mat-dialog-cell">
       <mat-form-field>
-        <mat-label>UsuarioActualiza</mat-label>
-        <input matInput placeholder="Ingresa el UsuarioActualiza" [(ngModel)]="usuarioactualizaDepartamento">
+        <mat-label>Usuario Actualiza</mat-label>
+        <input
+          matInput
+          placeholder="Ingresa el Usuario que actualiza"
+          [(ngModel)]="usuarioactualizaDepartamento"
+          required
+          aria-required="true"
+        />
       </mat-form-field>
     </div>
   </div>
   <!-- Puedes agregar más filas con más campos aquí -->
 </div>
 <div mat-dialog-actions>
-    <button mat-button (click)="onNoClick()">Cancelar</button>
-    <button mat-button cdkFocusInitial (click)="insertar()">Insertar</button>
+  <button class="cancelar" mat-button cdkFocusInitial (click)="onNoClick()">
+    Cancelar
+  </button>
+  <button class="insertar" mat-button cdkFocusInitial (click)="insertar()">
+    Insertar
+  </button>
 </div>
-
-
