@@ -28,83 +28,87 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 <!-- Almacenes -->
 
-![Alt text](image-22.png)
+![alt text](image-37.png)
 
 <!-- Articulos -->
 
-![Alt text](image-23.png)
+![alt text](image-38.png)
 
 <!-- Clientes -->
 
-![Alt text](image-20.png)
+![alt text](image-39.png)
 
 <!-- Existencias -->
 
-![Alt text](image-19.png)
+![alt text](image-40.png)
 
 <!-- Rutas -->
 
-![Alt text](image-18.png)
+![alt text](image-41.png)
 
 <!-- Tickets -->
 
-![Alt text](image-16.png)
+![alt text](image-42.png)
 
 <!-- Detalle Tickets -->
 
-![Alt text](image-15.png)
+![alt text](image-43.png)
 
 <!-- Movimientos Inventario -->
 
-![Alt text](image-24.png)
+![alt text](image-44.png)
 
 <!-- Personas -->
 
-![Alt text](image-12.png)
+![alt text](image-45.png)
 
 <!-- Detalle Movimiento -->
 
-![Alt text](image-25.png)
+![alt text](image-46.png)
 
 <!-- Usuarios -->
 
-![alt text](image-27.png)
+![alt text](image-47.png)
 
 <!-- DetallePerfil -->
 
-![alt text](image-28.png)
+![alt text](image-48.png)
 
 <!-- ModulosUsuario -->
 
-![alt text](image-29.png)
+![alt text](image-49.png)
 
 <!-- Enpleados -->
 
-![alt text](image-30.png)
+![alt text](image-50.png)
 
 <!-- Modulos -->
 
-![alt text](image-31.png)
-
-<!-- Persona -->
-
-![alt text](image-32.png)
+![alt text](image-51.png)
 
 <!-- Perfiles -->
 
-![alt text](image-33.png)
+![alt text](image-52.png)
 
 <!-- Sucursal Sede -->
 
-![alt text](image-34.png)
+![alt text](image-53.png)
 
 <!-- Puestos -->
 
-![alt text](image-35.png)
+![alt text](image-54.png)
 
 <!-- Categoria Modulos -->
 
-![alt text](image-36.png)
+![alt text](image-55.png)
+
+<!-- Login -->
+
+![alt text](image-56.png)
+
+<!-- Unidad Medida -->
+
+![alt text](image-57.png)
 
 <!-- Integrantes -->
 <!-- Felipe de Jesus Bernal Gazca 12754 -->

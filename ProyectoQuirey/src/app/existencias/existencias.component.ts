@@ -21,18 +21,15 @@ export class ExistenciasComponent {
     'Fecha',
     'Cantidad',
     'Estatus',
-    'Acciones',
   ];
 
-
-  dataSource = new MatTableDataSource<Existencias>;
+  dataSource = new MatTableDataSource<Existencias>();
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
 
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
   }
-
 
   constructor(
     private existenciasService: ExistenciasService,

@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import {MatPaginatorModule} from '@angular/material/paginator';
+import { MatPaginatorModule } from '@angular/material/paginator';
 import { AlmacenesComponent } from './almacenes/almacenes.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //import { ControlPanelComponent } from './control-panel/control-panel.component';
@@ -117,41 +117,41 @@ import { InsertarUnidadmedidaComponent } from './unidadmedida/insertar-unidadmed
 
 const appRoutes: Routes = [
   //{path:'controlPanel', component:ControlPanelAlmacenesComponent},
-  { path: 'almacenes', component: AlmacenesComponent },//
-  { path: 'articulos', component: ArticulosComponent },//
-  { path: 'clientes', component: ClientesComponent },//
+  { path: 'almacenes', component: AlmacenesComponent }, //
+  { path: 'articulos', component: ArticulosComponent }, //
+  { path: 'clientes', component: ClientesComponent }, //
 
-  { path: 'rutas', component: RutasComponent },//
-  { path: 'tickets', component: TicketsComponent },//
+  { path: 'rutas', component: RutasComponent }, //
+  { path: 'tickets', component: TicketsComponent },
 
-  { path: 'existencias', component: ExistenciasComponent },//
-  { path: 'personas', component: PersonasComponent },//
-  { path: 'detalletickets', component: DetalleticketsComponent },//
+  { path: 'existencias', component: ExistenciasComponent },
+  { path: 'personas', component: PersonasComponent },
+  { path: 'detalletickets', component: DetalleticketsComponent },
 
-  { path: 'movimientosinventario', component: MovimientosinventarioComponent },//
+  { path: 'movimientosinventario', component: MovimientosinventarioComponent },
 
-  { path: 'detallemovimiento', component: DetallemovimientoComponent },//
+  { path: 'detallemovimiento', component: DetallemovimientoComponent },
 
   { path: 'login', component: LoginComponent },
-//aqui
-  { path: 'usuarios', component: UsuariosComponent },//
+  //aqui
+  { path: 'usuarios', component: UsuariosComponent },
 
-  { path: 'detalleperfil', component: DetalleperfilComponent },//
+  { path: 'detalleperfil', component: DetalleperfilComponent },
 
-  { path: 'modulosusuario', component: ModulosusuarioComponent },//
+  { path: 'modulosusuario', component: ModulosusuarioComponent },
 
-  { path: 'empleados', component: EmpleadosComponent },//
+  { path: 'empleados', component: EmpleadosComponent }, //
 
-  { path: 'modulos', component: ModulosComponent },//
+  { path: 'modulos', component: ModulosComponent }, //
 
-  { path: 'perfiles', component: PerfilesComponent },//
+  { path: 'perfiles', component: PerfilesComponent }, //
 
-  { path: 'sucursalsede', component: SucursalsedeComponent },//
+  { path: 'sucursalsede', component: SucursalsedeComponent }, //
 
-  { path: 'puestos', component: PuestosComponent },//
+  { path: 'puestos', component: PuestosComponent }, //
 
-  { path: 'categoriamodulos', component: CategoriamodulosComponent },//
-//Falta menu
+  { path: 'categoriamodulos', component: CategoriamodulosComponent }, //
+  //Falta menu
   { path: 'unidadmedida', component: UnidadmedidaComponent },
 ];
 
